@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSM350.com - 온라인 카지노</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 20px 0;
+            padding: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .login-form, .signup-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .login-form input, .signup-form input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .login-form button, .signup-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MSM350.com</h1>
+        <p>안전하고 신뢰할 수 있는 온라인 카지노</p>
+    </header>
+    <nav>
+        <a href="#login">로그인</a>
+        <a href="#signup">회원가입</a>
+        <a href="#games">게임 목록</a>
+        <a href="#bonuses">보너스</a>
+        <a href="#support">고객 지원</a>
+    </nav>
+    <div class="container">
+        <section id="login" class="card">
+            <h2>로그인</h2>
+            <form class="login-form">
+                <input type="text" placeholder="사용자 이름" required>
+                <input type="password" placeholder="비밀번호" required>
+                <button type="submit">로그인</button>
+            </form>
+        </section>
+        <section id="signup" class="card">
+            <h2>회원가입</h2>
+            <form class="signup-form">
+                <input type="text" placeholder="사용자 이름" required>
+                <input type="email" placeholder="이메일" required>
+                <input type="password" placeholder="비밀번호" required>
+                <button type="submit">회원가입</button>
+            </form>
+        </section>
+        <section id="games" class="card">
+            <h2>게임 목록</h2>
+            <p>다양한 게임을 즐겨보세요!</p>
+            <ul>
+                <li>블랙잭</li>
+                <li>룰렛</li>
+                <li>슬롯머신</li>
+                <li>포커</li>
+            </ul>
+        </section>
+        <section id="bonuses" class="card">
+            <h2>보너스</h2>
+            <p>회원님을 위한 특별 보너스를 확인하세요!</p>
+        </section>
+        <section id="support" class="card">
+            <h2>고객 지원</h2>
+            <p>문제가 있나요? 저희가 도와드리겠습니다.</p>
+            <p>이메일: support@msm350.com</p>
+            <p>전화: 123-456-7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 MSM350.com - 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
